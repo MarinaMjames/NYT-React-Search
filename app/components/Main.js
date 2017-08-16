@@ -10,22 +10,14 @@ var Main = React.createClass({
 
     return (
 
-      <div className="container">
-        <div className="jumbotron">
-          <h2><strong>Which Child???</strong></h2>
-          <p><em>A journey through the whimsical world of React Routing</em></p>
-          <hr />
-          <p>
-            <Link to="/Child1"><button className="btn btn-primary btn-lg">Show Child #1</button></Link>
-            <Link to="/Child2"><button className="btn btn-danger btn-lg">Show Child #2</button></Link>
-          </p>
+      // <!-- Jumbotron -->
+      <div className="jumbotron">
+        <div className="container">
+        <h1>NY Times Scraper</h1>
+        <p>Get the latest news right here, right now!</p>
         </div>
-
-        <div className="row">
-
-        </div>
-
       </div>
+      <Navbar />
     );
   }
 });
